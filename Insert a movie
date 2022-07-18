@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!--이 문서는 html이다라는 관용-->
+<html> <!--html 부분이라고 표기-->
+    <head> <!--본문을 설명하는 것들은 head tag로 묶어야 한다.-->
+        <title>애국가</title> <!--제목을 지정-->
+        <meta charset="utf-8"> <!--utf 8로 읽어라-->
+    </head>
+
+    <body> <!--본문은 body tag로 묶어야 한다-->
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/n6WaTObHRJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p> <!--동영상 태그-->
+   
+        <h1><a href="https://namu.wiki/w/%EC%95%A0%EA%B5%AD%EA%B0%80" target="_blank">애국가</a></h1> <!--h1은 제목 태그--> <!--a href는 이 부분에 링크를 걸어준다.-->
+        <ol>      <!--ol은 ordered list의 약자 부모 목록 숫자 형식으로 리스트를 만들어 준다.-->
+            <li><a href="1.html">1절</a></li> <!--br을 쓰지 않아도 리스트로 만들어 준다.-->
+            <li><a href="2.html">2절</a></li>
+            <li><a href="3.html">3절</a></li>
+            <li><a href="4.html">4절</a></li>
+        </ol> 
+
+        <ul>    <!--unordered list의 약자로 글머리 형식으로 리스트를 만들어준다.-->
+            <li>안익태</li>
+        </ul>
+
+        <img src="data:image/png;base64,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"><br>
+        <!--img태크-->
+        동해물과 백두산이 마르고닳도록<br>
+        <strong>하느님이 보우하사 <u>길이</u> 보우하세</strong><br> <!--strong 태그는 강조 u태그는 밑줄 -->
+        무궁화 삼천리 화려강산 <br> <!--줄바꿈-->
+        대한사람 대한으로 길이보전하세
+        <p>남산 위에 저 소나무, 철갑을 두른 듯
+        바람 서리 불변함은 우리 기상일세.
+        무궁화 삼천리 화려 강산
+        대한 사람, 대한으로 길이 보전하세</p> <!--단락-->
+        <p style="margin-top:45px;">가을 하늘 공활한데 높고 구름 없이 <!--css style="margin-top:45px;은 위보터 45px 간격을 띄어 준다"-->
+        밝은 달은 우리 가슴 일편단심일세.
+        무궁화 삼천리 화려 강산
+        대한 사람, 대한으로 길이 보전하세</p>
+        이 기상과 이 맘으로 충성을 다하여
+        괴로우나 즐거우나 나라 사랑하세
+        무궁화 삼천리 화려 강산
+        대한 사람, 대한으로 길이 보전하세
+    </body>
+</html>
